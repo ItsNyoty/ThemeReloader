@@ -1,6 +1,6 @@
 php /var/www/pterodactyl/artisan down
 cd /var/www/pterodactyl
-npx update-browserslist-db@latest
+npx update-browserslist-db@latest -y
 yarn install
 yarn build:production
 #clear
